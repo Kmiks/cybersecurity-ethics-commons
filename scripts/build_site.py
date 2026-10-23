@@ -390,6 +390,11 @@ def main():
     write(DOCS / "index.html", home_html)
 
     # --- Case pages ---
+    case_pages = DOCS / "cases"
+    for page_dir in case_pages.iterdir():
+        if page_dir.is_dir() and page_dir.name.isdigit() and int(page_dir.name) > len(cases):
+            shutil.rmtree(page_dir)
+
     for i, case in enumerate(cases):
         html = build_case_page(case, cases, i)
         write(DOCS / "cases" / f"{case['id']:03d}" / "index.html", html)
