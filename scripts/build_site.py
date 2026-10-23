@@ -329,6 +329,10 @@ def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
     cases = data["cases"]
     categories = data["categories"]
+    expected_ids = list(range(1, len(cases) + 1))
+    actual_ids = [case.get("id") for case in cases]
+    if actual_ids != expected_ids:
+        raise ValueError("Case IDs must be sequential integers from 1 through the case count.")
 
     years = []
     for c in cases:
