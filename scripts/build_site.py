@@ -11,12 +11,19 @@ which are hand-maintained. Safe to re-run any time data/cases.json changes.
 import json
 import re
 import shutil
+from datetime import date
 from pathlib import Path
 from collections import Counter
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "cases.json"
 DOCS = ROOT / "docs"
+
+# Shown in every page footer. It is the date you run this build, so rebuild
+# (python3 scripts/build_site.py) whenever you publish a change you want dated.
+_TODAY = date.today()
+LAST_UPDATED_TEXT = f"Last updated {_TODAY:%b} {_TODAY.day}, {_TODAY.year}"
+LAST_UPDATED_ISO = _TODAY.isoformat()
 
 FONT_LINK = (
     '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
@@ -76,7 +83,8 @@ def footer_html(depth):
     prefix = "../" * depth if depth else "./"
     return (
         '<footer class="sitefooter"><div class="sitefooter-inner">'
-        '<span>Disclosure Commons &middot; cybersecurity ethics case library</span>'
+        '<span>Disclosure Commons &middot; cybersecurity ethics case library &middot; '
+        f'<time datetime="{LAST_UPDATED_ISO}">{LAST_UPDATED_TEXT}</time></span>'
         f'<span><a href="{prefix}cite/">Cite this dataset</a> &middot; '
         '<a href="https://github.com/disclosure-commons/cybersecurity-ethics-commons" '
         'target="_blank" rel="noopener">GitHub</a> &middot; '
@@ -417,8 +425,19 @@ def main():
     # --- Copy data for the browse app to fetch client-side ---
     write(DOCS / "assets" / "cases.json", json.dumps(data, indent=0))
 
-    print(f"Built {len(cases)} case pages + 6 section pages + home.")
+    # --- Stamp the hand-maintained browse page's footer (only the marked span) ---
+    browse = DOCS / "browse" / "index.html"
+    html = browse.read_text(encoding="utf-8")
+    stamped, n = re.subn(
+        r"<!--updated-->.*?<!--/updated-->",
+        f'<!--updated--><time datetime="{LAST_UPDATED_ISO}">{LAST_UPDATED_TEXT}</time><!--/updated-->',
+        html, flags=re.S)
+    if n:
+        browse.write_text(stamped, encoding="utf-8")
+    else:
+        print("WARNING: <!--updated--> marker not found in docs/browse/index.html; its footer date was not updated.")
 
+    print(f"Built {len(cases)} case pages + 6 section pages + home.")
 
 if __name__ == "__main__":
     main()
