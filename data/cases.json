@@ -17,7 +17,7 @@
     {
       "id": 2,
       "institution": "Massachusetts Institute of Technology (MIT) / MBTA",
-      "year": "2008.0",
+      "year": "2008",
       "summary": "Three MIT students found vulnerabilities in the MBTA subway ticketing system as a class project and planned to present at DEF CON. The MBTA sued under the CFAA and obtained a gag order; it was later lifted.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -45,7 +45,7 @@
     {
       "id": 4,
       "institution": "Christopher Soghoian / Indiana University",
-      "year": "2006.0",
+      "year": "2006",
       "summary": "In 2006, Indiana University graduate student Christopher Soghoian created a publicly accessible fake airline boarding pass generator to expose vulnerabilities in airport security screening procedures. Although intended to demonstrate a security flaw and pressure authorities to address it, the tool could also enable individuals to bypass certain security checkpoints. The FBI subsequently raided his home, broke his front door glass, and seized his computers and other belongings. The investigation was eventually closed without criminal charges, raising ethical questions about public vulnerability disclosure, researcher responsibility, and the potential consequences of exposing security weaknesses.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -73,7 +73,7 @@
     {
       "id": 6,
       "institution": "University of Minnesota (UMN)",
-      "year": "2021.0",
+      "year": "2021",
       "summary": "University of Minnesota researchers submitted intentionally flawed patches to Linux kernel maintainers without informing them that they were subjects of a security research experiment. The patches were rejected before being merged, but the experiment triggered a major controversy about research ethics and trust in open-source communities.",
       "category": "Informed Consent & Human Subjects",
       "intent": "Good faith (intended public benefit)",
@@ -87,7 +87,7 @@
     {
       "id": 7,
       "institution": "Carnegie Mellon University (CMU / SEI)",
-      "year": "2014.0",
+      "year": "2014",
       "summary": "CMU researchers discovered a technique to de-anonymize Tor users by running malicious relay nodes. They planned to present at Black Hat but canceled. The FBI allegedly paid ~$1M to use the technique against Silk Road 2.0 users, sweeping thousands of non-criminal Tor users.",
       "category": "Informed Consent & Human Subjects",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -115,7 +115,7 @@
     {
       "id": 9,
       "institution": "University of Michigan (e-Voting)",
-      "year": "2010.0",
+      "year": "2010",
       "summary": "A Michigan security team authorized by DC election officials hacked a Washington DC internet voting pilot within 36 hours, gaining full control and modifying vote totals. DC cancelled the system; the team published full technical details.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Good faith (intended public benefit)",
@@ -129,7 +129,7 @@
     {
       "id": 10,
       "institution": "MedSec Holdings / Muddy Waters (St. Jude Medical)",
-      "year": "2016.0",
+      "year": "2016",
       "summary": "MedSec found serious vulnerabilities in St. Jude Medical cardiac implant devices. Rather than disclosing to the vendor, they partnered with investment firm Muddy Waters to short St. Jude's stock and released partial vulnerability details publicly.",
       "category": "Financial Conflict of Interest",
       "intent": "Financially motivated (profit, stock, bounty)",
@@ -143,7 +143,7 @@
     {
       "id": 11,
       "institution": "David Levin / Vanguard Cybersecurity / Florida Elections",
-      "year": "2016.0",
+      "year": "2016",
       "summary": "Pen-tester David Levin tested SQL injection vulnerabilities on a Florida county elections website without written authorization and was arrested for unauthorized access.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -185,7 +185,7 @@
     {
       "id": 14,
       "institution": "Hacking Team Data Breach / Leak Ethics",
-      "year": "2015.0",
+      "year": "2015",
       "summary": "An unidentified hacker or hacking group compromised the Italian surveillance company Hacking Team and publicly released approximately 400 GB of internal data, including correspondence, customer information, source code, and exploits. The leak exposed the company's business relationships with governments accused of human rights abuses and created additional security risks by exposing attack tools.",
       "category": "Dual-Use Research",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -255,7 +255,7 @@
     {
       "id": 19,
       "institution": "Marcus Hutchins / WannaCry / Kronos Malware",
-      "year": "2017.0",
+      "year": "2017",
       "summary": "Hutchins stopped the WannaCry ransomware by registering its kill-switch domain. Months later the FBI arrested him at DEF CON, alleging he helped develop the Kronos banking trojan in 2014–2015. He pleaded guilty to two CFAA counts and was sentenced to time served.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -269,7 +269,7 @@
     {
       "id": 20,
       "institution": "PunkSpider / QOMPLX (DEF CON)",
-      "year": "2021.0",
+      "year": "2021",
       "summary": "QOMPLX relaunched PunkSpider at DEF CON — a tool that mass-crawls the web for SQL injection, XSS, and path-traversal vulnerabilities and publishes results in a searchable public database, exposing real flaws in Kickstarter and LendingTree before notification.",
       "category": "Vulnerability Disclosure",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -283,7 +283,7 @@
     {
       "id": 21,
       "institution": "University of Michigan / FTP: The Forgotten Cloud",
-      "year": "2015.0",
+      "year": "2015",
       "summary": "- researchers looked into ftp servers - 1.1 million servers allowed anonymous access",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
@@ -297,7 +297,7 @@
     {
       "id": 22,
       "institution": "Ola Bini / Ecuador / Privacy Tool Developer",
-      "year": "2019.0",
+      "year": "2019",
       "summary": "Swedish software developer and digital privacy advocate Ola Bini was arrested in Ecuador in 2019 and accused of unauthorized access to computer systems. Authorities and prosecutors treated elements of his technical expertise and privacy-related activities as suspicious. Following years of disputed proceedings, a 2023 acquittal, and a subsequent appellate conviction, he was deported to Sweden in October 2026 under disputed national security allegations.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -311,7 +311,7 @@
     {
       "id": 23,
       "institution": "Crisis Text Line / Data Sharing with Loris.ai",
-      "year": "2022.0",
+      "year": "2022",
       "summary": "Nonprofit Crisis Text Line shared scrubbed and anonymized crisis-conversation data and insights with its for-profit spin-off Loris.ai, prompting concerns about secondary use of sensitive communications and meaningful consent from people in crisis.",
       "category": "Informed Consent & Human Subjects",
       "intent": "Financially motivated (profit, stock, bounty)",
@@ -339,7 +339,7 @@
     {
       "id": 25,
       "institution": "Jason Parker / Georgia Voter Cancellation Portal",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "Independent researcher Jason Parker found a critical flaw in Georgia's online voter-cancellation portal: anyone knowing a voter's name, birth date, and county could cancel any voter's registration. He notified the Secretary of State's office; the office denied receiving the notification. ProPublica published the story; the flaw was quickly patched.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -381,7 +381,7 @@
     {
       "id": 28,
       "institution": "iSight Partners / Sandworm Zero-Day",
-      "year": "2014.0",
+      "year": "2014",
       "summary": "iSight Partners discovered Russian group Sandworm exploiting a Windows zero-day (CVE-2014-4114) to target NATO and Ukrainian government systems. iSight had used the intelligence for weeks before coordinating a patch release with Microsoft, monetizing it as a client intelligence product.",
       "category": "Financial Conflict of Interest",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -395,7 +395,7 @@
     {
       "id": 29,
       "institution": "University of Dhaka (Honeynet)",
-      "year": "2026.0",
+      "year": "2026",
       "summary": "University of Dhaka deployed an APNIC honeynet sensor exposing SSH and Telnet services and observed 63,247 attacks from 4,262 unique source IP addresses in 12 days, sharing threat-intelligence lessons.",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
@@ -409,7 +409,7 @@
     {
       "id": 30,
       "institution": "Johns Hopkins University (High-Interaction Honeypots)",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "JHU researchers deployed high-interaction honeypots to study real attacker behavior and TTPs in depth.",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
@@ -423,7 +423,7 @@
     {
       "id": 31,
       "institution": "Bret McDanel / Tornado Development Inc.",
-      "year": "2000.0",
+      "year": "2000",
       "summary": "- computer security for tornado devleopment (web-based email, voicemail, fx) - found vulneratbilityin webmail system that allowed unauthroized people to access customers' private messages - the weakness was session information that could be exposed through web addresses - warned supervisions about the problem, was not fixed even after he left and was asked again to fix it - messaged 5,600 emails to tornado customers about this. -company fixed the bug but contacted the law enforcement - said he interfered with torndao servers and damaged the companies reputation - convicted under the Computer fraud and abuse act and served 16 months in prison - it was overturned due to interpretiation of law being incorrect (still served his sentence)",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -437,7 +437,7 @@
     {
       "id": 32,
       "institution": "Daniel Cuthbert / Disaster Emergency Committee (UK)",
-      "year": "2004.0",
+      "year": "2004",
       "summary": "After donating to a tsunami relief site and receiving no confirmation page, security consultant Daniel Cuthbert manually tested the donation page for phishing signs. He was convicted under the UK Computer Misuse Act and fined — the first such conviction under that section.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -451,7 +451,7 @@
     {
       "id": 33,
       "institution": "Kevin Finisterre / DJI Bug Bounty",
-      "year": "2017.0",
+      "year": "2017",
       "summary": "Finisterre found DJI's wildcard SSL certificate and AWS keys exposed on GitHub, accessing customer flight logs, passports, and IDs. After reporting through DJI's bug bounty, DJI allegedly threatened CFAA charges and required a restrictive NDA before paying the $30,000 bounty. Finisterre declined and published the dispute publicly.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -493,7 +493,7 @@
     {
       "id": 36,
       "institution": "Radboud University / Bart Jacobs (NXP / Mifare Classic)",
-      "year": "2008.0",
+      "year": "2008",
       "summary": "- the university investigated transit chips manufactured by NXP - chips are used for public transit, building access badges by using a encryption algo that they kept a secret - researchers reverse engineered it and was able to get secret keys and clone cards - in march 2008 they told the dutch gov and NXP the information so they could fix it, but thye wanted to publish a paper about it in June - July 2008 NXP took the reserachers to court to stop the publication - it was denied, researchers said they should let the public know about the technologies they use, court said freedom of expression is needed",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -521,7 +521,7 @@
     {
       "id": 38,
       "institution": "Michael Lynn / Cisco / Black Hat 2005",
-      "year": "2005.0",
+      "year": "2005",
       "summary": "Lynn resigned from ISS on the morning of his Black Hat talk to warn that Cisco routers could be exploited for a self-propagating 'router worm.' Cisco and ISS obtained a federal injunction barring further dissemination; Lynn agreed to a permanent injunction surrendering all related materials.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -563,7 +563,7 @@
     {
       "id": 41,
       "institution": "Sakura Samurai / UN & Indian Government",
-      "year": "2021.0",
+      "year": "2021",
       "summary": "Volunteer research group Sakura Samurai targeted organizations with published VDPs, finding exposed credentials giving access to 100,000+ UN employee records and credentials across 26 Indian government departments. They limited actions to verification and disclosed through official channels; no charges were filed.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -577,7 +577,7 @@
     {
       "id": 42,
       "institution": "Stefan Puffer / Harris County TX (Wi-Fi)",
-      "year": "2002.0",
+      "year": "2002",
       "summary": "Stefan Puffer detected an insecure wireless network associated with a Harris County court system and demonstrated access weaknesses to an official and reporter. Prosecutors alleged unauthorized access and damage, but a jury acquitted him.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -619,7 +619,7 @@
     {
       "id": 45,
       "institution": "David Ross ('Connor Goodwolf') / City of Columbus Ransomware",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "After ransomware actors exposed Columbus city data, cybersecurity researcher David Ross, known as Connor Goodwolf, publicly challenged official descriptions of the breach and warned that sensitive information was accessible. Columbus sued and obtained restrictions on disclosure, later dropping its lawsuit under conditions.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -647,7 +647,7 @@
     {
       "id": 47,
       "institution": "Wesley Wineberg / Facebook / Instagram Bug Bounty",
-      "year": "2015.0",
+      "year": "2015",
       "summary": "Bug hunter Wesley Wineberg reported critical Instagram infrastructure flaws after obtaining access to sensitive keys and files. Facebook disputed the extent of his testing, accusing him of exceeding bug-bounty boundaries; Wineberg alleged intimidating contact with his employer.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -689,7 +689,7 @@
     {
       "id": 50,
       "institution": "Dmitry Sklyarov / ElcomSoft / Adobe DMCA",
-      "year": "2001.0",
+      "year": "2001",
       "summary": "Russian ElcomSoft employee Sklyarov was arrested by the FBI immediately after his DEF CON talk on breaking Adobe eBook encryption — the first criminal charge under the DMCA. Held in custody then under travel restriction before a deal requiring his testimony against ElcomSoft in exchange for dropped charges.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -815,7 +815,7 @@
     {
       "id": 59,
       "institution": "Davidson & Associates v. Jung (Battle.net / bnetd reverse engineering)",
-      "year": "2005.0",
+      "year": "2005",
       "summary": "Developers reverse-engineered Blizzard's Battle.net gaming service to build 'bnetd,' a free open-source server that let players run their own game servers. Blizzard sued under the DMCA and breach of the end-user license agreement (EULA). The Eighth Circuit ruled against the developers, finding that the EULA's prohibition on reverse engineering was enforceable and that reverse engineering to achieve interoperability did not qualify for the DMCA's interoperability exception because the developers had agreed to the EULA. The case chilled open-source interoperability work.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -843,7 +843,7 @@
     {
       "id": 61,
       "institution": "Cobell v. Norton — BIA Internet Disconnection / Security Audit",
-      "year": "2001.0",
+      "year": "2001",
       "summary": "In a class action over mismanagement of Native American trust accounts, a court-appointed security expert found that the Bureau of Indian Affairs' computer systems were so insecure that the judge ordered the entire Interior Department's internet connectivity disconnected until security could be verified. The case raised profound questions about what a court can order when government IT security failures endanger beneficiaries' financial data — and who bears accountability when critical government systems fail basic security standards.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Good faith (intended public benefit)",
@@ -871,7 +871,7 @@
     {
       "id": 63,
       "institution": "IT Consultant Fined for Exposing Shoddy Security (Germany / Modern Solution parallel)",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "A German IT consultant discovered a security vulnerability at a client's system and reported it. Instead of addressing the flaw, the company reported the consultant to police. The consultant was fined for unauthorized access under German law, even though their intent was to expose and report the vulnerability. The case closely parallels the Modern Solution GmbH case (C056) and reflects a broader pattern in German jurisprudence of criminalizing good-faith vulnerability verification.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -885,7 +885,7 @@
     {
       "id": 64,
       "institution": "Microsoft / Nightmare Eclipse (Windows Defender & BitLocker Zero-Days)",
-      "year": "2026.0",
+      "year": "2026",
       "summary": "An anonymous researcher known as 'Nightmare Eclipse' publicly disclosed six unpatched Windows vulnerabilities — including flaws in Defender and BitLocker — after alleging that Microsoft deleted their MSRC (Security Response Center) account, withheld bounty payments, and removed their attribution from an advisory. Three of the six disclosed vulnerabilities (BlueHammer, RedSun, UnDefend) were subsequently exploited in real-world attacks and added to CISA's Known Exploited Vulnerabilities catalog. Microsoft's Digital Crimes Unit publicly threatened criminal prosecution; the researcher was also banned from GitHub and GitLab. The cybersecurity community largely sided with the researcher, with veterans warning Microsoft's stance would chill future disclosure.",
       "category": "Vulnerability Disclosure",
       "intent": "Ambiguous / gray area (mixed or unclear intent)",
@@ -899,7 +899,7 @@
     {
       "id": 65,
       "institution": "DJI / Researcher Bug Bounty Quarrel (Kevin Finisterre — extended / SecurityWeek)",
-      "year": "2017.0",
+      "year": "2017",
       "summary": "Security researcher Kevin Finisterre found DJI's wildcard SSL certificate and AWS S3 bucket access keys exposed on GitHub, potentially exposing customer flight logs, passports, and ID documents. When he reported through DJI's newly launched bug bounty program, DJI allegedly threatened CFAA prosecution and demanded he sign a restrictive NDA before receiving the $30,000 bounty. DJI disputed Finisterre's characterization. Finisterre declined the money and published his account publicly. The case became a template for how bug bounty programs can be used to silence researchers rather than reward them.",
       "category": "Vulnerability Disclosure",
       "intent": "Good faith (intended public benefit)",
@@ -927,7 +927,7 @@
     {
       "id": 67,
       "institution": "Timnit Gebru / Google / \"Stochastic Parrots\"",
-      "year": "2020.0",
+      "year": "2020",
       "summary": "AI ethics researcher Timnit Gebru disputed Google management over a research paper criticizing the risks and limitations of large language models. Her December 2020 departure sparked a public debate about corporate influence on critical research.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -941,7 +941,7 @@
     {
       "id": 68,
       "institution": "OpenAI NDA / SEC Whistleblower Complaint",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "Whistleblowers asked the US Securities and Exchange Commission to investigate allegations that OpenAI agreements improperly restricted employees’ ability to report potential wrongdoing to regulators and seek whistleblower awards.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -955,7 +955,7 @@
     {
       "id": 69,
       "institution": "Nasr, Carlini et al. / ChatGPT Training Data Extraction",
-      "year": "2023.0",
+      "year": "2023",
       "summary": "Researchers demonstrated that ChatGPT could reveal portions of its training data through carefully crafted prompts.",
       "category": "Dual-Use Research",
       "intent": "Good faith (intended public benefit)",
@@ -969,7 +969,7 @@
     {
       "id": 70,
       "institution": "Suchir Balaji / OpenAI",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "Former OpenAI engineer Suchir Balaji publicly challenged the legality and ethics of training commercial generative AI systems on copyrighted works, arguing that resulting tools may compete with creators whose works they use.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -983,7 +983,7 @@
     {
       "id": 71,
       "institution": "Joy Buolamwini & Timnit Gebru / Gender Shades",
-      "year": "2018.0",
+      "year": "2018",
       "summary": "Researchers demonstrated racial and gender bias in commercial facial recognition systems.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Good faith (intended public benefit)",
@@ -997,7 +997,7 @@
     {
       "id": 72,
       "institution": "Robert Williams / Detroit Police",
-      "year": "2020.0",
+      "year": "2020",
       "summary": "Robert Williams was wrongfully arrested after being misidentified by facial recognition software.",
       "category": "Critical Infrastructure & Public Trust",
       "intent": "Institutional action against researcher",
@@ -1011,7 +1011,7 @@
     {
       "id": 73,
       "institution": "Clearview AI / ACLU",
-      "year": "2020.0",
+      "year": "2020",
       "summary": "ACLU sued Clearview AI over scraping billions of facial images without consent.",
       "category": "Surveillance & Offensive Tools",
       "intent": "Financially motivated (profit, stock, bounty)",
@@ -1039,7 +1039,7 @@
     {
       "id": 75,
       "institution": "Felten v. RIAA",
-      "year": "2001.0",
+      "year": "2001",
       "summary": "Researchers were threatened with DMCA litigation for publishing research on breaking digital watermarking.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -1067,7 +1067,7 @@
     {
       "id": 77,
       "institution": "Dennis Giese",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "Researcher disclosed vulnerabilities in robotic vacuums and received a cease-and-desist before DEF CON.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -1081,7 +1081,7 @@
     {
       "id": 78,
       "institution": "Canadian Security Researcher (FOIA records)",
-      "year": "2018.0",
+      "year": "2018",
       "summary": "Researcher downloaded publicly exposed government records and was criminally charged.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -1095,7 +1095,7 @@
     {
       "id": 79,
       "institution": "Diego Gómez",
-      "year": "2014.0",
+      "year": "2014",
       "summary": "Colombian graduate student was prosecuted for sharing an academic paper online.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -1109,7 +1109,7 @@
     {
       "id": 80,
       "institution": "David Leroy Ross / City of Columbus",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "Researcher demonstrated the severity of a ransomware breach after officials downplayed it and was sued by the city.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -1123,7 +1123,7 @@
     {
       "id": 81,
       "institution": "Josh Renaud / Missouri Teacher Database",
-      "year": "2021.0",
+      "year": "2021",
       "summary": "Journalist discovered exposed teacher SSNs in webpage source code and was publicly accused of hacking.",
       "category": "Legal Boundaries & CFAA Overreach",
       "intent": "Good faith (intended public benefit)",
@@ -1137,7 +1137,7 @@
     {
       "id": 82,
       "institution": "Andrew Lemon Cease-and-Desist",
-      "year": "2024.0",
+      "year": "2024",
       "summary": "Researcher reported a security flaw and allegedly received a cease-and-desist threatening legal action.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",
@@ -1151,7 +1151,7 @@
     {
       "id": 83,
       "institution": "Keeper Security v. Ars Technica",
-      "year": "2017.0",
+      "year": "2017",
       "summary": "Following reporting on a critical vulnerability in a Keeper password-manager browser extension, Keeper Security sued Ars Technica and reporter Dan Goodin, disputing aspects of the coverage. The suit raised concerns about vendors using litigation in response to security journalism.",
       "category": "Institutional Suppression",
       "intent": "Good faith (intended public benefit)",

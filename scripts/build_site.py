@@ -336,6 +336,11 @@ in addition to citing the dataset as a whole.</p>
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
     cases = data["cases"]
+    for case in cases:
+        year = case.get("year")
+        if isinstance(year, str):
+            case["year"] = re.sub(r"^(\d{4})\.0$", r"\1", year)
+
     categories = data["categories"]
     expected_ids = list(range(1, len(cases) + 1))
     actual_ids = [case.get("id") for case in cases]
